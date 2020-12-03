@@ -26,4 +26,4 @@ with open("day2.txt", "r", encoding="utf-8") as f:
     d = list(parse(f))
 
     print("Part 1:", list(map(lambda i: validate1(*i), d)).count(True))
-    print("Part 1:", list(map(lambda i: validate2(*i), d)).count(True))
+    print("Part 2:", list(map(lambda i: validate2(*i), d)).count(True))
